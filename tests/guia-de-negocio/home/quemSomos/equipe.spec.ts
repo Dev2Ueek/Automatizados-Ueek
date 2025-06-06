@@ -2,7 +2,6 @@ import test from "@playwright/test";
 import { login } from "../../helpers/login";
 import path from "path";
 import { Conteudo, conteudos } from "../../data/fake-data";
-import { selecionarIconeAleatorioModal } from "../../functions/Home/selecionarIcone";
 
 test('Criar conteúdo', async ({ page }) => {
     const content: Conteudo = conteudos[1]
