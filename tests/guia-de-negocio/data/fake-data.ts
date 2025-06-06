@@ -4,6 +4,7 @@ export type Conteudo = {
   texto: string;
   quantidade: string;
   nomeequipe: string;
+  textoBotao: string; // Novo atributo
 };
 
 export const conteudos: Conteudo[] = [
@@ -13,6 +14,7 @@ export const conteudos: Conteudo[] = [
     texto: 'Explore oportunidades, empresas e ofertas em um só lugar.',
     quantidade: '1',
     nomeequipe: 'Equipe de Marketing',
+    textoBotao: 'Saiba mais', // Texto do botão
   },
   {
     titulo: 'Conheça as Vantagens',
@@ -20,6 +22,7 @@ export const conteudos: Conteudo[] = [
     texto: 'Participar do guia traz visibilidade, confiança e mais negócios.',
     quantidade: '3',
     nomeequipe: 'Equipe Comercial',
+    textoBotao: 'Ver benefícios', // Texto do botão
   },
   {
     titulo: 'Explore Categorias',
@@ -27,5 +30,6 @@ export const conteudos: Conteudo[] = [
     texto: 'De alimentação a serviços automotivos, tudo em um só portal.',
     quantidade: '5',
     nomeequipe: 'Equipe de Suporte',
+    textoBotao: 'Explorar categorias', // Texto do botão
   },
 ];
